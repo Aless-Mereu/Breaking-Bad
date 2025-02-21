@@ -1,0 +1,196 @@
+/* Incorporación de fuente personalizada */
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('img/Breaking\ Bad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --fuente-titulos: 'MiFuentePersonalizada', Helvetica;
+    --fuente-que-no-voy-a-usar: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+
+
+}
+
+body {
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.tabla-background {
+    background-color: #637124;
+    background-image: none;
+    /* Elimina la imagen de fondo */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#titulo{
+    font-size: 80px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    background-image: url('img/logo.PNG');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 2px auto;
+    /* Ajusta el margen superior a 2px */
+}
+
+.contenedor {
+    display: block;
+    /* Muestra el contenedor como bloque */
+    width: 700px;
+    height: 300px;
+    background-size: cover;
+    /* Ajusta la imagen de fondo para cubrir el contenedor */
+    background-position: center;
+    border: 10px outset brown;
+    border-radius: 22px;
+    margin:  auto;
+    /* Centra el contenedor */
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--fuente-titulos);
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    /* Ajusta el margen superior a 20px */
+    
+}
+
+.formulario-breaking-bad {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(17, 64, 87, 0.767);
+    /* Fondo con transparencia */
+    padding: 2rem;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--fuente-titulos Helvetica);
+}
+
+.cabecera {
+    display: block;
+    margin-top: 10px;
+    margin: 10px auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.tabla-breaking-bad { 
+    table-layout: fixed;
+    margin:  1rem auto;
+    background-color: #2b2c24;
+    /* Color de fondo */
+    font-family: var(--fuente-titulos Helvetica);
+    border-spacing: 0.8rem;
+    /* Espaciado entre celdas */
+
+
+}
+
+.tabla-breaking-bad th,
+.tabla-breaking-bad td {
+    border: transparent;
+    /* Elimina el borde de las celdas */
+    padding: auto;
+    /* Espaciado interno de las celdas */
+    text-align: center;
+    /* Centra el texto en las celdas */
+    color: black;
+    /* Color del texto */
+    width: auto;
+
+
+}
+
+.tabla-breaking-bad img {
+    width: auto;
+    /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+/*colores extraidos a traves de pinetools*/
+.celda-color1 {
+    background-color: #b8da23;
+}
+
+.celda-color2 {
+    background-color: #818d4e;
+}
+
+.celda-color3 {
+    background-color: #c5e050;
+}
+
+.celda-color4 {
+    background-color: #b4bb9a;
+}
+
+.celda-color5 {
+    background-color: #d3e778;
+}
+
+.celda-color6 {
+    background-color: #f0f8c9;
+}
+
+.celda-color10 {
+    background-color: #89a418;
+}
+
+.celda-color11 {
+    background-color: #637126;
+}
+
+.celda-color14 {
+    background-color: #ab8fcc;
+}
+.celda-color15{
+    background-color: #c0c72b;
+}
+
+.iniciales {
+    font-size: 40px;
+    /* Ajusta el tamaño de las iniciales */
+    font-weight: bold;
+    /* Ajusta el peso de las iniciales */
+    display: block;
+    margin-bottom: auto;
+    
+}
+#hank {
+
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    width: 0;
+    height: 0;
+   /*No consigo ajustar el tamaño de la celda de Hank a las demás...*/
+    
+    
+   
+    
+    
+}
+
